@@ -29,27 +29,27 @@ namespace BMI
 
             if (bmi < 18.5)
             {
-                DisplayAlert("BMI", bmi.ToString() + "低体重(痩せ型)です", "OK");
+                DisplayAlert("BMI",  "低体重(痩せ型)です", "OK");
             }
             else if (bmi < 25)
             {
-                DisplayAlert("BMI", bmi.ToString() + "普通体重です", "OK");
+                DisplayAlert("BMI",  "普通体重です", "OK");
             }
             else if (bmi < 30)
             {
-                DisplayAlert("BMI", bmi.ToString() + "肥満(1度)です", "OK");
+                DisplayAlert("BMI",  "肥満(1度)です", "OK");
             }
             else if (bmi < 35)
             {
-                DisplayAlert("BMI", bmi.ToString() + "肥満(2度)です", "OK");
+                DisplayAlert("BMI",  "肥満(2度)です", "OK");
             }
             else if (bmi < 40)
             {
-                DisplayAlert("BMI", bmi.ToString() + "肥満(3度)です", "OK");
+                DisplayAlert("BMI", "肥満(3度)です", "OK");
             }
             else
             {
-                DisplayAlert("BMI", bmi.ToString() + "肥満(4度)です", "OK");
+                DisplayAlert("BMI",  "肥満(4度)です", "OK");
             }
 
         }
