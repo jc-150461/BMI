@@ -9,15 +9,21 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="StartAndExpand" />
 
+
+            <Label Text="現在の身長を入力してください"
+                    VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            
+            
             <Entry x:Name="height"
                     WidthRequest="50"
                     Text="170"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="現在の身長を入力してください"
-                    VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="現在の体重を入力してください" 
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
 
             <Entry x:Name="weight"
                    WidthRequest="50"
@@ -25,9 +31,7 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
 
-            <Label Text="現在の体重を入力してください" 
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
+           
 
             <Button Text="計算"
                     Clicked="Button_Clicked"
